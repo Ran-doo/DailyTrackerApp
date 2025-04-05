@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+	Uri="https://ran-doo.github.io/DailyTrackerApp/DailyTracker_x64.appinstaller"
+	Version="0.22.1.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+	<MainPackage
+		Name="DailyTrackerApp"
+		Version="0.22.1.0"
+		Publisher="CN=mouha"
+		Uri="https://ran-doo.github.io/DailyTrackerApp/DailyTracker_0.22.1.0_x64_Test/DailyTracker_0.22.1.0_x64.msix"
+		ProcessorArchitecture="x64" />
+	<Dependencies>
+		<Package
+			Name="Microsoft.WindowsAppRuntime.1.7"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x64"
+			Uri="https://ran-doo.github.io/DailyTrackerApp/DailyTracker_0.22.1.0_x64_Test/Dependencies/x64/Microsoft.WindowsAppRuntime.1.7.msix"
+			Version="7000.435.154.0" />
+	</Dependencies>
+	<UpdateSettings>
+		<OnLaunch
+			HoursBetweenUpdateChecks="0" />
+	</UpdateSettings>
+</AppInstaller>
